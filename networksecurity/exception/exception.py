@@ -19,7 +19,7 @@ if __name__ == "__main__":
         a = 1 /0
         print("This line will not be executed due to the exception above.")
     except Exception as e:
-        raise NetworkSecurityException(e,sys)
+        raise NetworkSecurityException(e,sys)  
     
     
     
